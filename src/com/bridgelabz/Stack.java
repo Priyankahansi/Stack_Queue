@@ -10,6 +10,7 @@ public class Stack<T> {
             head = obj2;
             tail = obj2;
         } else {
+
             tail.next = obj2;
             tail = obj2;
         }

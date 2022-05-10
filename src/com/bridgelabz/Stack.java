@@ -4,6 +4,7 @@ public class Stack<T> {
     Node<T> head;
     Node<T> tail;
 
+
     public void add(T data) {
         Node<T> obj2 = new Node<>(data);
         if (head == null) {
